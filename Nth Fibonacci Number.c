@@ -29,6 +29,4 @@ int fib(int nth_num)
         }
         return nth_value;
     }
-
-
 }
