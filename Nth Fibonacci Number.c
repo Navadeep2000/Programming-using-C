@@ -1,3 +1,10 @@
+/*
+ * FIBONACCI SERIES
+ * SERIES       : 0 1 1 2 3 5 8 13 21 34....
+ * PLACE VALUE  : 1 2 3 4 5 6 7 8  9  10
+ */
+
+
 // 1. Function for Finding Nth Fibonacci Number Using Recursion
 
 int fib(int nth_number)
@@ -7,6 +14,8 @@ int fib(int nth_number)
     else
         return fib(nth_number-1) + fib(nth_number-2);
 }
+
+
 
 // 2. Function for Finding Nth Fibonacci Number Without Using Recursion
 
